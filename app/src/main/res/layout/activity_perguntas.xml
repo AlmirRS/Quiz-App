@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerguntasActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textNome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ol_pessoa"
+            android:padding="8dp"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textContadorPergunta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaria"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="1 pergunta de 4"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textPergunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:padding="15dp"
+            android:background="@color/fundo"
+            android:gravity="center"
+            android:text="Qual foi a duração do primeiro video do youtube?"
+            android:textSize="22sp"
+            android:textStyle="normal" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupPergunta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <RadioButton
+                android:id="@+id/radioPergunta01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pergunta_01" />
+
+            <RadioButton
+                android:id="@+id/radioPergunta02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pergunta_02" />
+
+            <RadioButton
+                android:id="@+id/radioPergunta03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pergunta_03" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnConfirmar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/confirmar_resposta"
+            android:textSize="18sp"/>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.constraintlayout.widget.ConstraintLayout>

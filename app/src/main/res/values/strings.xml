@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quiz Bíblico</string>
+    <string name="iniciar_quiz">Iniciar quiz</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="digite_nome">Digite seu nome</string>
+    <string name="bem_vindo">Bem Vindo!</string>
+    <string name="quiz_app">Quiz App</string>
+    <string name="ol_pessoa">Olá, Pessoa</string>
+    <string name="confirmar_resposta">Confirmar Resposta</string>
+    <string name="pergunta_01">Pergunta 01</string>
+    <string name="pergunta_02">Pergunta 02</string>
+    <string name="pergunta_03">Pergunta 03</string>
+    <string name="imagem_logo">Imagem logo</string>
+</resources>
